@@ -1,0 +1,5 @@
+size(1000,1000)
+translate(500,500)
+rotate(radians(30))
+ellipse(0,0,500,50)
+rect(100,100,100,100)
