@@ -1,0 +1,17 @@
+x = 300
+z = 300
+f =300
+g = 300 #300 потому что центр холста
+def setup():
+  size(600,600)
+def  draw():
+  global x,z,f,g
+  background(100)
+  ellipse(x,z,20,20)
+  ellipse(f,x,20,20)
+  ellipse(x,g,20,20)
+  ellipse(g,f,20,20)
+  x +=1
+  z +=1
+  f -=1
+  g -=1
