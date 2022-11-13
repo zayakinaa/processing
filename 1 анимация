@@ -1,0 +1,10 @@
+x = 0
+z = 0
+def setup():
+  size(600,600)
+def  draw():
+  global x,z
+  background(100)
+  ellipse(x,z,20,20)
+  x  +=1
+  z  +=1
