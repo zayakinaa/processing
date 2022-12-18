@@ -1,0 +1,16 @@
+q = 100
+w = 100 
+def setup():
+    size(1000,1000)
+    global q,w
+def draw():
+    global q,w
+    background(900000000)
+    translate(600,200)
+    triangle(100,10,200,100,10,q)
+    translate(-200,100)
+    triangle(100,10,200,w,10,100)
+    translate(-200,-100)
+    triangle(100,10,200,100,10,q)
+    q = q + 1
+    w = w + 1
