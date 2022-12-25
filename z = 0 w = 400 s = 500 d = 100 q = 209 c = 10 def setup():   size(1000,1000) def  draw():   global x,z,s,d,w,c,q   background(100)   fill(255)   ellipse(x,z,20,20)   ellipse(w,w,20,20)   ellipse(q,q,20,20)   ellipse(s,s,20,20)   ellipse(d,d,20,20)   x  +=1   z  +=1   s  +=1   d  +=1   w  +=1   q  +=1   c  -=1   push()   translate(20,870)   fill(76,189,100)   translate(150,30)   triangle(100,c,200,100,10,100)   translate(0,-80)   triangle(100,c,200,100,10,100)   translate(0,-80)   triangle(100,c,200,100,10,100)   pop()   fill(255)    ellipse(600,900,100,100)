@@ -1,0 +1,43 @@
+x = 0
+z = 0
+w = 400
+s = 500
+d = 100
+q = 209
+c = 10
+def setup():
+  size(1000,1000)
+def  draw():
+  global x,z,s,d,w,c,q
+  background(100)
+  fill(255)
+  ellipse(x,z,20,20)
+  ellipse(q,w,20,20)
+  ellipse(w,q,20,20)
+  ellipse(s,s,20,20)
+  ellipse(d,d,20,20)
+  x  +=1
+  z  +=1
+  s  +=1
+  d  +=1
+  w  +=1
+  q  +=1
+  c  -=1
+  push()
+  translate(20,870)
+  fill(76,189,100)
+  translate(150,30)
+  triangle(100,c,200,100,10,100)
+  translate(0,-80)
+  triangle(100,c,200,100,10,100)
+  translate(0,-80)
+  triangle(100,c,200,100,10,100)
+  pop()
+  fill(255)
+  
+
+  ellipse(600,900,100,100)
+  translate(0,-80)
+  ellipse(600,900,100,100)
+  translate(0,160)
+  ellipse(600,900,100,100)
